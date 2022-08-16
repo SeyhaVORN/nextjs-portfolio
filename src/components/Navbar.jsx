@@ -2,8 +2,7 @@ import React, {useState} from "react";
 import Image from "next/image";
 import Link from "next/link";
 import {AiOutlineClose, AiOutlineMail, AiOutlineMenu} from 'react-icons/ai';
-import {FaGithub, FaLinkedinIn} from "react-icons/fa";
-import {BsFillPersonLinesFill} from "react-icons/bs";
+import {FaFacebook, FaGithub, FaLinkedinIn, FaTelegram} from "react-icons/fa";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -11,9 +10,9 @@ const Navbar = () => {
     setNav(!nav);
   }
   return (
-    <div className='fixed w-full h-20 shadow-xl z-[100]'>
-      <div className='flex justify-between items-center w-full h-full px-4 2xl:px-16'>
-        <h2 className='text-blue-900'>SEYHA</h2>
+    <div className='fixed w-full h-16 shadow-xl z-50 bg-white'>
+      <div className='flex justify-between items-center w-full h-full px-4 2xl:px-16 z-50'>
+        <h2 className='text-blue-900 text-2xl'>SEYHA</h2>
         {/*<Image src='/../public/assets/navLogo.png' alt='navbarlogo' width='125' height='50'/>*/}
         <div>
           <ul className='hidden md:flex'>
@@ -81,15 +80,19 @@ const Navbar = () => {
                 </div>
                 <div
                   className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
+                  <FaTelegram/>
+                </div>
+                <div
+                  className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
+                  <FaFacebook/>
+                </div>
+                <div
+                  className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
                   <FaGithub/>
                 </div>
                 <div
                   className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
                   <AiOutlineMail/>
-                </div>
-                <div
-                  className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
-                  <BsFillPersonLinesFill/>
                 </div>
               </div>
             </div>

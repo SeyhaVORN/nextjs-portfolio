@@ -1,6 +1,8 @@
 import Head from 'next/head'
-import Navbar from "../components/navbar/Navbar";
-import Main from "../components/main/Main";
+import Navbar from "../components/Navbar";
+import Main from "../components/Main";
+import About from "../components/About";
+import Skills from "../components/Skills";
 
 
 const Home = () => {
@@ -14,6 +16,8 @@ const Home = () => {
       </Head>
       <Navbar/>
       <Main/>
+      <About/>
+      <Skills/>
     </div>
   )
 }
