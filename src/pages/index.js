@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Navbar from "../components/navbar/Navbar";
+import Main from "../components/main/Main";
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
         <link rel="icon" href="/fav.png"/>
       </Head>
       <Navbar/>
+      <Main/>
     </div>
   )
 }
