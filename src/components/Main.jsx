@@ -19,31 +19,31 @@ const Main = () => {
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a href='/' target='_blank' rel='noreferrer'>
               <div
-                className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                 <FaLinkedinIn/>
               </div>
             </a>
             <Link href='/'>
               <div
-                className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                 <FaTelegram/>
               </div>
             </Link>
             <Link href='/'>
               <div
-                className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                 <FaFacebook/>
               </div>
             </Link>
             <a href='/' target='_blank' rel='noreferrer'>
               <div
-                className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                 <FaGithub/>
               </div>
             </a>
             <Link href='/'>
               <div
-                className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                 <AiOutlineMail/>
               </div>
             </Link>

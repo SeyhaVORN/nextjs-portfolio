@@ -19,7 +19,7 @@ const Navbar = () => {
             <Link href='/'>
               <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
             </Link>
-            <Link href='/'>
+            <Link href='/#about'>
               <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
             </Link>
             <Link href='/'>
@@ -75,23 +75,23 @@ const Navbar = () => {
               <p className='uppercase tracking-widest text-[#5651e5]'>Let's Connect</p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <div
-                  className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
+                  className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200'>
                   <FaLinkedinIn/>
                 </div>
                 <div
-                  className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
+                  className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200'>
                   <FaTelegram/>
                 </div>
                 <div
-                  className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
+                  className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200'>
                   <FaFacebook/>
                 </div>
                 <div
-                  className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
+                  className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200'>
                   <FaGithub/>
                 </div>
                 <div
-                  className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
+                  className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200'>
                   <AiOutlineMail/>
                 </div>
               </div>
