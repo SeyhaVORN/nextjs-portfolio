@@ -10,7 +10,7 @@ const About = () => {
           <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
           <h2 className='py-4 italic font-mono'>SEYHA VORN</h2>
           <p className='py-2 text-gray-600'>
-            I'm not your normal developer
+            I&apos;m not your normal developer
           </p>
           <p className='py-2 text-gray-600'>
             I have been attending the Royal University of Phnom Penh (RUPP) since 2019. I am a third-year student in
