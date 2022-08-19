@@ -8,7 +8,7 @@ import {HiOutlineChevronDoubleUp} from 'react-icons/hi';
 
 const Contact = () => {
   return (
-    <div id='contact' className='w-full lg:h-screen p-6'>
+    <div id='contact' className='w-full lg:h-screen p-6 sm:p-4'>
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Contact
@@ -16,7 +16,7 @@ const Contact = () => {
         <h2 className='py-4'>Get In Touch</h2>
         <div className='grid lg:grid-cols-5 gap-8'>
 
-          <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
+          <div className='col-span-3 lg:col-span-2 w-full h-full shadow-md shadow-gray-400 rounded-xl p-4'>
             <div className='lg:p-4 h-full '>
               <div>
                 <Image
@@ -34,46 +34,51 @@ const Contact = () => {
               </div>
               <div>
                 <p className='uppercase pt-8'>Connect With Me</p>
-                <div className='flex items-center justify-between py-4'>
-                  <a href='/' target='_blank' rel='noreferrer'>
+                <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
+                  <a href="https://www.linkedin.com/in/seyha-vorn/" target='_blank'
+                     rel='noreferrer'>
                     <div
                       className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                       <FaLinkedinIn/>
                     </div>
                   </a>
-                  <Link href='/'>
+                  <a href="https://t.me/SeyhaVorn" target='_blank'
+                        rel='noreferrer'>
                     <div
                       className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                       <FaTelegram/>
                     </div>
-                  </Link>
-                  <Link href='/'>
+                  </a>
+                  <a href="https://facebook.com/seyha.vornn/" target='_blank'
+                        rel='noreferrer'>
                     <div
                       className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                       <FaFacebook/>
                     </div>
-                  </Link>
-                  <a href='/' target='_blank' rel='noreferrer'>
+                  </a>
+                  <a href="https://github.com/SeyhaVORN" target='_blank'
+                     rel='noreferrer'>
                     <div
                       className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                       <FaGithub/>
                     </div>
                   </a>
-                  <Link href='/'>
+                  <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target='_blank'
+                        rel='noreferrer'>
                     <div
                       className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                       <AiOutlineMail/>
                     </div>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
+          <div className='col-span-3 w-full h-auto shadow-md shadow-gray-400 rounded-xl lg:p-4'>
             <div className='p-4'>
               <form
-                action='https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060'
+                action=''
                 method='POST'
                 encType='multipart/form-data'
               >
@@ -131,19 +136,21 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className='flex justify-center py-12'>
-          <Link href='/'>
-            <a>
-              <div
-                className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <HiOutlineChevronDoubleUp
-                  className='text-[#5651e5]'
-                  size={30}
-                />
-              </div>
-            </a>
-          </Link>
-        </div>
+
+        {/*<div className='flex justify-center py-12'>*/}
+        {/*  <Link href='/'>*/}
+        {/*    <a>*/}
+        {/*      <div*/}
+        {/*        className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>*/}
+        {/*        <HiOutlineChevronDoubleUp*/}
+        {/*          className='text-[#5651e5]'*/}
+        {/*          size={30}*/}
+        {/*        />*/}
+        {/*      </div>*/}
+        {/*    </a>*/}
+        {/*  </Link>*/}
+        {/*</div>*/}
+
       </div>
     </div>
   );
