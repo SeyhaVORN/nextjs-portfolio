@@ -23,7 +23,7 @@ const Skills = () => {
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Training Skill</p>
         <h2 className='py-6'>What can I do</h2>
-        <div className='grid md:grid-cols-1 lg:grid-cols-2 lg:gap-8 sm:gap-6'>
+        <div className='grid md:grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-6'>
 
           <SkillsItem title={"HTML"} imageSkills={html} skillsPercent={"80%"}/>
           <SkillsItem title={"CSS"} imageSkills={css} skillsPercent={"80%"}/>
