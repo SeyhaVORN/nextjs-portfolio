@@ -93,8 +93,8 @@ const Navbar = () => {
               <p className='w-[85%] md:w-[90%] py-4'>WELCOME TO MY PORTFOLIO</p>
             </div>
           </div>
-          <div className='py-4 flex flex-col'>
-            <ul className='uppercase'>
+          <div className='py-4 flex flex-col justify-between'>
+            <ul className='uppercase float-left'>
               <Link href='/'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>Home</li>
               </Link>
@@ -111,7 +111,7 @@ const Navbar = () => {
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>Contact</li>
               </Link>
             </ul>
-            <div className='pt-40'>
+            <div className='mt-10'>
 
               <div className='border-t border-gray-300'>
                 <p className='uppercase tracking-widest text-[#5651e5] py-4'>Let&apos;s Connect</p>
