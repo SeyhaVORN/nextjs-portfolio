@@ -10,8 +10,8 @@ const SkillsItem = ({title, imageSkills, skillsPercent}) => {
         </div>
         <div className='grid col-span-5 w-full h-full'>
           <div className='flex items-center justify-center'>
-            <div className='bg-[#ecf0f3] w-full h-[20px] shadow mr-4 ml-4'>
-              <div className="bg-blue-900 h-full text-base text-white flex justify-center items-center"
+            <div className='bg-[#ecf0f3] w-full h-[20px] shadow mr-4 ml-4 rounded-xl z-20'>
+              <div className="bg-blue-900 h-full text-[14px] text-white flex justify-center items-center rounded-l-xl"
                    style={{width: `${skillsPercent}`}}>{title}</div>
             </div>
             <span className='text-blue-900 font-bold'>{skillsPercent}</span>

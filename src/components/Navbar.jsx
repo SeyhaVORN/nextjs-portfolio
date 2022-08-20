@@ -121,17 +121,14 @@ const Navbar = () => {
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>Contact</li>
               </Link>
             </ul>
-            <div className='mt-10'>
-
-              <div className='border-t border-gray-300'>
-                <p className='uppercase tracking-widest text-[#5651e5] py-4'>Let&apos;s Connect</p>
-              </div>
+            <div className='mt-10 flex justify-center items-center flex-col border-t border-gray-300'>
+              <p className='uppercase tracking-widest text-[#5651e5] py-4'>Let&apos;s Connect</p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
 
                 <a href="https://www.linkedin.com/in/seyha-vorn/" target='_blank'
                    rel='noreferrer'>
                   <div
-                    className='rounded-full shadow-lg shadow-gray-400 p-4 sm:p-2 cursor-pointer hover:scale-105 ease-in duration-200'>
+                    className='rounded-full shadow-lg shadow-gray-400 p-3 sm:p-4 cursor-pointer hover:scale-105 ease-in duration-200'>
                     <FaLinkedinIn/>
                   </div>
                 </a>
@@ -139,7 +136,7 @@ const Navbar = () => {
                 <a href="https://t.me/SeyhaVorn" target='_blank'
                    rel='noreferrer'>
                   <div
-                    className='rounded-full shadow-lg shadow-gray-400 p-4 sm:p-2 cursor-pointer hover:scale-105 ease-in duration-200'>
+                    className='rounded-full shadow-lg shadow-gray-400 p-3 sm:p-4 cursor-pointer hover:scale-105 ease-in duration-200'>
                     <FaTelegram/>
                   </div>
                 </a>
@@ -147,7 +144,7 @@ const Navbar = () => {
                 <a href="https://facebook.com/seyha.vornn/" target='_blank'
                    rel='noreferrer'>
                   <div
-                    className='rounded-full shadow-lg shadow-gray-400 p-4 sm:p-2 cursor-pointer hover:scale-105 ease-in duration-200'>
+                    className='rounded-full shadow-lg shadow-gray-400 p-3 sm:p-4 cursor-pointer hover:scale-105 ease-in duration-200'>
                     <FaFacebook/>
                   </div>
                 </a>
@@ -155,7 +152,7 @@ const Navbar = () => {
                 <a href="https://github.com/SeyhaVORN" target='_blank'
                    rel='noreferrer'>
                   <div
-                    className='rounded-full shadow-lg shadow-gray-400 p-4 sm:p-2 cursor-pointer hover:scale-105 ease-in duration-200'>
+                    className='rounded-full shadow-lg shadow-gray-400 p-3 sm:p-4 cursor-pointer hover:scale-105 ease-in duration-200'>
                     <FaGithub/>
                   </div>
                 </a>
@@ -163,7 +160,7 @@ const Navbar = () => {
                 <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target='_blank'
                    rel='noreferrer'>
                   <div
-                    className='rounded-full shadow-lg shadow-gray-400 p-4 sm:p-2 cursor-pointer hover:scale-105 ease-in duration-200'>
+                    className='rounded-full shadow-lg shadow-gray-400 p-3 sm:p-4 cursor-pointer hover:scale-105 ease-in duration-200'>
                     <AiOutlineMail/>
                   </div>
                 </a>
