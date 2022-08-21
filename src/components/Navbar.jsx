@@ -46,9 +46,9 @@ const Navbar = () => {
          className={shadow ? 'fixed w-full h-16 shadow-xl z-[100] ease-in-out duration-300'
            : 'fixed w-full h-16 z-[100]'
          }>
-      <div className='flex justify-between items-center w-full h-full px-4 2xl:px-16 z-50'>
+      <div className='flex justify-between items-center w-full h-full px-4 md:px-10 xl:px-10 2xl:px-16 z-50'>
         <Link href='/'>
-          <h2 className='text-blue-900 text-2xl'>SEYHA</h2>
+          <span className='text-blue-900 text-2xl font-bold font-style'>SEYHA</span>
           {/*<Image src='/../public/assets/navLogo.png' alt='navbarlogo' width='125' height='50'/>*/}
         </Link>
         <div>
