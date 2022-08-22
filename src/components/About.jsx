@@ -2,6 +2,7 @@ import React from "react";
 import Image from 'next/image';
 import AboutImg from '../../public/assets/seyha.png';
 import Link from "next/link";
+import {motion, Variant} from "framer-motion";
 
 const About = () => {
   return (
@@ -26,9 +27,12 @@ const About = () => {
           </Link>
         </div>
         <div className='flex justify-center items-center'>
-          <div className='sm:max-w-[80%] w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-            <Image src={AboutImg} className='rounded-xl' alt='/' />
-          </div>
+          <motion.div
+            initial={{x: -100}}
+            animate={{x: 0, rotate: 360}}
+            className='sm:max-w-[80%] w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+            <Image src={AboutImg} className='rounded-xl' alt='/'/>
+          </motion.div>
         </div>
       </div>
     </div>
